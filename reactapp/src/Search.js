@@ -1,8 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from './Card';
+// import Card from './Card';
 import carddata from './carddata';
-import {Button} from 'react-bootstrap';
+import {Row,Col,Card} from 'react-bootstrap';
+
 
 const  Search=()=>{
     return(
@@ -16,14 +17,27 @@ const  Search=()=>{
                 </div>
             </div>
            
-            {/* {
+            
+             <Row md={3} lg={4}  xl={5} xs={2}>
+             {
                 carddata.cardData.map((items,index)=>{
                     return(
-                        <Card  />
+                        <Col mx={3} style={{  marginBottom:'2rem'}}>
+                            <Card style={{ width: '13rem' }}>
+                                <Card.Img variant="top" src={items.img} />
+                                <Card.Body>
+                                    <Card.Title>{items.title}</Card.Title>
+                                    <Card.Text>{items.year}</Card.Text>
+                                    <Card.Text>{items.hour}</Card.Text>
+                                    <Card.Text>{items.genre.join('/')}</Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                     )
                 })
             }
-             */}
+            
+             </Row>
           
 
         </section>

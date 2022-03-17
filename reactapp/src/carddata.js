@@ -59,37 +59,38 @@ const carddata={
         {
             id: 7,
             img:tentet,
-            title: '',
-            year:'',
-            hour:'',
-            genre:['','']
+            
+            title: 'Iron Man',
+            year:'2000',
+            hour:'2h 6min',
+            genre:['Action','sci-fi']
         }
         ,
         {
             id: 8,
             img:tentet,
-            title: '',
-            year:'',
-            hour:'',
-            genre:['','']
+            title: 'Iron Man',
+            year:'2000',
+            hour:'2h 6min',
+            genre:['Action','sci-fi']
         }
         ,
         {
             id: 9,
             img:tentet,
-            title: '',
-            year:'',
-            hour:'',
-            genre:['','']
+            title: 'Iron Man',
+            year:'2000',
+            hour:'2h 6min',
+            genre:['Action','sci-fi']
         }
         ,
         {
             id: 10,
             img:tentet,
-            title: '',
-            year:'',
-            hour:'',
-            genre:['','']
+            title: 'Iron Man',
+            year:'2000',
+            hour:'2h 6min',
+            genre:['Action','sci-fi']
         }
     ]
 }
