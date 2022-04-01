@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Card from './Card';
+
 import carddata from './carddata';
 import {Row,Col,Card} from 'react-bootstrap';
 
