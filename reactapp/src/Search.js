@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './App.css';
 import carddata from './carddata';
 import {Row,Col,Card} from 'react-bootstrap';
 
@@ -44,7 +44,7 @@ const  Search=()=>{
                     return(
                         <Col mx={3} style={{  marginBottom:'2rem'}}>
                             <Card style={{ width: '13rem' }}>
-                                <Card.Img variant="top" src={items.img} />
+                                <Card.Img variant="top" src={items.img} style={{objectFit:'cover'}} className="img"/>
                                 <Card.Body>
                                     <Card.Title>{items.title}</Card.Title>
                                     <Card.Text>{items.year}</Card.Text>

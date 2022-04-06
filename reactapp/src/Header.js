@@ -5,9 +5,9 @@ import {Container,Navbar} from 'react-bootstrap';
 
 export default function Header(){
     return(
-        <Navbar bg="light">
-            <Container>
-                <Navbar.Brand href="#">Mr.Viewer</Navbar.Brand>
+        <Navbar  style={{backgroundColor:"#BD4B4B"}}>
+            <Container >
+                <Navbar.Brand href="#" style={{color:'white',fontSize:'2rem'}}>Mr.Viewer</Navbar.Brand>
             </Container>
         </Navbar>
     )
